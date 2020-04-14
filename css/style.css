@@ -78,7 +78,6 @@ h6 {
 #topbar {
   background: #3b3b3b;
   padding: 10px 0;
-  border-top: 1px solid #000000;
   font-size: 14px;
 }
 
@@ -88,6 +87,20 @@ h6 {
 }
 
 #topbar .contact-info a:hover {
+  color: #50d8af;
+}
+
+#video {
+  background: #3b3b3b;
+  font-size: 14px;
+}
+
+#video .contact-info a {
+  line-height: 1;
+  color: #d1d3d4;
+}
+
+#video .contact-info a:hover {
   color: #50d8af;
 }
 
@@ -564,13 +577,13 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #about.video {
-  padding-top: 1%;
-  padding-bottom: 1%;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 #about.video .container {
-  padding-left: 1%;
-  padding-right: 1%;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 #about.video .container .row {
