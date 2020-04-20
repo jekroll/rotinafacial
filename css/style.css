@@ -1219,3 +1219,45 @@ section.cadastro {
 .foto_chamada {
   width: 100%;
 }
+
+.card.buttamanda {
+  margin-bottom:10px !important;
+  background: none;
+  border: white;
+  border-width: 1px;
+  border-style: solid;
+}
+
+#accordion.accamanda {
+  margin-top: 10px !important;
+  margin-left: 10px !important;
+  margin-right: 10px !important;
+}
+
+button.accamanda {
+  padding: .75rem 1.25rem;
+  width: 100%;
+  height: 100%;
+
+  color: white;
+  font-weight: bold;
+}
+
+.card-body {
+  background: white;
+}
+
+.card-header {
+  padding: 0px !important;
+}
+
+.comprarbutt {
+  padding: 10px;
+  border-radius: 5px;
+  background: red;
+  color: white; 
+  font-weight: bold;
+  margin-left: auto;
+  margin-right: auto;
+  display: table;
+}
