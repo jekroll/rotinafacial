@@ -181,7 +181,7 @@ h6 {
   position: relative;
   /*background: url("../img/intro-carousel/1.jpg") no-repeat;
   background-size: cover;*/
-  background-color: #5c4b4b;
+  background-color: #3b3b3b;
 }
 
 #intro .intro-content {
@@ -1220,12 +1220,26 @@ section.cadastro {
   width: 100%;
 }
 
+.frente_backtext {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  background:rgba(0, 0, 0, 0.4);
+}
+
 .card.buttamanda {
   margin-bottom:10px !important;
   background: none;
   border: white;
   border-width: 1px;
   border-style: solid;
+}
+
+.btn-link:hover {
+  color: #51d8af;
+  text-decoration: none;
+  background-color: transparent;
+  border-color: transparent;
 }
 
 #accordion.accamanda {
@@ -1244,7 +1258,8 @@ button.accamanda {
 }
 
 .card-body {
-  background: white;
+  background: rgba(255,255,255,0.05);
+  color: white;
 }
 
 .card-header {

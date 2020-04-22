@@ -168,4 +168,9 @@ jQuery(document).ready(function ($) {
     $(this).replaceWith(video);
   });
 
+  setTimeout( () => {
+    $('.frente_backtext')
+      .hide( )
+      .slideDown( 1500 );
+  }, 1000 );
 });
