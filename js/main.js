@@ -171,6 +171,6 @@ jQuery(document).ready(function ($) {
   setTimeout( () => {
     $('.frente_backtext')
       .hide( )
-      .slideDown( 1500 );
+      .slideDown( 1000 );
   }, 1000 );
 });
